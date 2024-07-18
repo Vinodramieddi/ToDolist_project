@@ -1,0 +1,129 @@
+*{
+    margin:0;
+}
+body{
+    /* overflow: hidden; to hide scroll bars and can be done as overflow-x or overflow-y*/
+    margin:0;
+    font-family: cursive;
+}
+.main{
+    height:100vh;
+    background-color: rgb(192, 192, 192);
+}
+.header{
+    background-color: #131842;
+    height:15vh;
+}
+
+.navbar-nav{
+    padding-top:3vh;
+    /*text-align: center;*/
+}
+.navbar-nav li{
+    list-style: none;
+    display: inline;
+    padding: 5px;
+    border-radius: 10px;
+    /*margin-left:60px;*/
+    /*margin-right: 60px;*/
+    color:white;
+}
+.navbar-nav li:hover{
+    color:greenyellow;
+}
+.navbar-nav li:active{
+    background-color: cadetblue;
+}
+ 
+a{
+    text-decoration: none;
+    color:white;
+}
+
+.navbar-brand{
+    width: 4em;
+}
+ 
+ .row{
+    margin:30px;
+ }
+ 
+.row .col1{
+    width: 30%;
+    height: 60vh;
+    float: left;
+    padding-left:10px;
+    /*background-color: blue;*/
+}
+
+.row .col2{
+    width: 65%;
+    height: 60vh;
+    float: left;
+    /*background-color: blue;*/
+}
+
+.col2 p{
+    margin-top:8px;
+    text-indent: 20px;
+    text-align:justify;
+}
+
+.img{
+    margin:5px;
+    width:200px;
+    height:50vh;
+}
+
+input,textarea{
+    width:100%;
+}
+
+button{
+    background-color:rgb(12, 193, 118);
+    height:30px;
+    color:white;
+    border-radius:10px;
+}
+
+button[type=reset]{
+    background-color:rgb(226, 219, 6);
+    height:30px;
+    color:rgb(12, 0, 0);
+    border-radius:10px;
+    
+}
+
+.mb{
+    margin-bottom:5px;
+}
+h3{
+    padding:5px;
+}
+
+#customers{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#customers th,#customers td{
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even)
+{
+    background-color: lightgrey;
+}
+
+#customers tr:hover{
+    background-color:grey;
+}
+
+#customers th{
+    background-color: #04AA6D;
+    text-align:left;
+    padding:15px;
+    color:white;
+}
