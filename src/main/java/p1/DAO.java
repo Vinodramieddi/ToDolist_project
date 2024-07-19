@@ -149,8 +149,7 @@ public class DAO
             pstmt.setString(1,email);
             pstmt.setString(2,password);
             ResultSet rs=pstmt.executeQuery();
-            //
-            //=> madhu@gmail.com | 123456   | 09912280626 | Vijayawada | user 
+        
             if(rs.next())
             {
                 desig=rs.getString("desig");
